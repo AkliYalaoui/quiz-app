@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El - Quiz</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-info">
+            <div class="category">Category: <span>html</span></div>
+            <div class="count">Questions : <span></span></div>
+        </div>
+        <div class="quiz-white">
+            <div class="quiz-area">
+                <h2></h2>
+            </div>
+            <div class="answer-area">
+                <div class="answer">
+                    <input type="radio" name="answers" id="answer_1" checked>
+                    <label for="answer_1"></label>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="answers" id="answer_2" >
+                    <label for="answer_2"></label>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="answers" id="answer_3" >
+                    <label for="answer_3"></label>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="answers" id="answer_4" >
+                    <label for="answer_4"></label>
+                </div>
+            </div>
+            <button class="submit">Answer</button>
+            <div class="bullets">
+                <div class="bullet-container"></div>
+                <div class="count-down">
+                    <span class="minutes"></span>:<span class="seconds"></span>
+                </div>
+            </div>
+            <div id="results"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
